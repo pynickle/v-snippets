@@ -75,5 +75,21 @@
             "}"
         ],
         "description": "if, else if, else statement"
+    },
+    "import": {
+        "prefix": "import",
+        "body": [
+            "import ${1:name}"
+        ],
+        "description": "import a module from zlib or local"
+    },
+    "struct": {
+        "prefix": "struct",
+        "body": [
+            "struct ${1:name}{",
+            "    ${2:name} ${3:type}",
+            "}"
+        ],
+        "description": "struct a object"
     }
 }
