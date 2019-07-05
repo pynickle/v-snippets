@@ -7,6 +7,6 @@ v-snippets provides you snippets for v.
 - always (working)
 - method (working)
 
-# [Repository]()
+# [Repository](https://github.com/pynickle/v-snippets)
 
 Welcome contribute!
