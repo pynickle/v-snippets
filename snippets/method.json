@@ -1,0 +1,16 @@
+{
+    ".substr": {
+        "prefix": ".substr",
+        "body": [
+            ".substr(${1:start}, ${2:stop})"
+        ],
+        "description": "get str different parts"
+    },
+    ".len": {
+        "prefix": ".len",
+        "body": [
+            ".len"
+        ],
+        "description": "get the length of object"
+    }
+}
