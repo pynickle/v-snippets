@@ -1,0 +1,37 @@
+{
+    "print": {
+        "prefix": "print",
+        "body": [
+            "print(${1:object})"
+        ],
+        "description": "print an object without starting a new line"
+    },
+    "println": {
+        "prefix": "println",
+        "body": [
+            "println(${1:object})"
+        ],
+        "description": "print an object with starting a new line"
+    },
+    "eprintln": {
+        "prefix": "eprintln",
+        "body": [
+            "eprintln(${1:object})"
+        ],
+        "description": "eprintln support"
+    },
+    "exit": {
+        "prefix": "exit",
+        "body": [
+            "exit(${1:code})"
+        ],
+        "description": "exit the program with the code with C exit"
+    },
+    "panic": {
+        "prefix": "panic",
+        "body": [
+            "panic(${1:string})"
+        ],
+        "description": "raise an error of string"
+    }
+}

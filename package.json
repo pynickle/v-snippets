@@ -2,7 +2,7 @@
     "name": "v-snippets",
     "displayName": "v-snippets",
     "description": "useful snippets for V programming language",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository": "https://github.com/pynickle/v-snippets",
     "publisher": "pynickle",
     "author": "nick",
@@ -16,11 +16,15 @@
         "snippets": [
             {
                 "language": "v",
-                "path": "./snippets/always.json"
+                "path": "./snippets/statement.json"
             },
             {
                 "language": "v",
                 "path": "./snippets/method.json"
+            },
+            {
+                "language": "v",
+                "path": "./snippets/builtin_func.json"
             }
         ]
     }

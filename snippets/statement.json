@@ -1,32 +1,4 @@
 {
-    "print": {
-        "prefix": "print",
-        "body": [
-            "print(${1:object})"
-        ],
-        "description": "print an object without starting a new line"
-    },
-    "println": {
-        "prefix": "println",
-        "body": [
-            "println(${1:object})"
-        ],
-        "description": "print an object with starting a new line"
-    },
-    "eprint": {
-        "prefix": "eprint",
-        "body": [
-            "eprint(${1:object})"
-        ],
-        "description": "eprint support"
-    },
-    "eprintln": {
-        "prefix": "eprintln",
-        "body": [
-            "eprintln(${1:object})"
-        ],
-        "description": "eprintln support"
-    },
     "fn": {
         "prefix": "fn",
         "body": [
@@ -35,6 +7,24 @@
             "}"
         ],
         "description": "define a function"
+    },
+    "for": {
+        "prefix": "for",
+        "body": [
+            "for ${1:initialize}; ${2:condition}; ${3:change}{",
+            "    $4",
+            "}"
+        ],
+        "description": "for loop like c"
+    },
+    "for...in": {
+        "prefix": "for",
+        "body": [
+            "for ${1:item} in ${2:array}{",
+            "    $3",
+            "}"
+        ],
+        "description": "for loop with in arrays"
     },
     "mut": {
         "prefix": "mut",
